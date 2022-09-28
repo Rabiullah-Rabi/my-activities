@@ -1,7 +1,9 @@
 .activity-wrapper{
     padding: 10px;
-    background-color: rgb(231, 230, 230);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
+    display: grid;
+    box-shadow: 1px 2px 11px 0px #a7a7a7;
 }
 
 .thumbnail{

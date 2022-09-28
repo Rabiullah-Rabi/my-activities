@@ -3,6 +3,7 @@
     "id": "1",
     "name": "Coding",
     "duration": 240,
+    "description": "I just love coading.There are so many things to love about coding, both from a technical and philosophical perspective.You can sharpen your mind, rewire your brain, provide people with great software",
     "img": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
     "add_to_list": true
   },
@@ -10,6 +11,7 @@
     "id": "2",
     "name": "Thinking about future",
     "duration": 30,
+    "description": "This is my one of the most important daily life routine. Basically, The thought comes when I want to sleep.",
     "img": "https://images.unsplash.com/photo-1522435229388-6f7a422cd95b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGhpbmtpbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
     "add_to_list": true
   },
@@ -17,6 +19,7 @@
     "id": "3",
     "name": "Chatting with friend",
     "duration": 30,
+    "description": "This is my favourite activity.I just love to kill my time by texting with friend",
     "img": "https://images.unsplash.com/photo-1611746869696-d09bce200020?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2hhdHRpbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
     "add_to_list": true
   },
@@ -24,6 +27,7 @@
     "id": "4",
     "name": "Workout",
     "duration": 60,
+    "description": "It's a fake data. I do not like it. even I do not spend 1 min for this.",
     "img": "https://images.unsplash.com/photo-1581009137042-c552e485697a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d29ya291dHxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60",
     "add_to_list": true
   },
@@ -31,6 +35,7 @@
     "id": "5",
     "name": "Dancing",
     "duration": 5,
+    "description": "It's a fake data. I can't dance.",
     "img": "https://images.unsplash.com/photo-1454486837617-ce8e1ba5ebfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGFuY2luZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
     "add_to_list": true
   },
@@ -38,6 +43,7 @@
     "id": "6",
     "name": "Singing",
     "duration": 2,
+    "description": "I am a bathroom singer. I always singing random song during taking bath",
     "img": "https://images.unsplash.com/photo-1623517272043-cae1572afc96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2luZ2luZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
     "add_to_list": true
   },
@@ -45,6 +51,7 @@
     "id": "7",
     "name": "Sleeping",
     "duration": 360,
+    "description": "No word about sleeping. Because not only me,everyone love this",
     "img": "https://images.unsplash.com/photo-1585577529540-a8095ea25427?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2xlZXBpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
     "add_to_list": true
   },
@@ -52,6 +59,7 @@
     "id": "8",
     "name": "Reading",
     "duration": 30,
+    "description": "It's a fake data. I do not like it. even I do not spend 1 min for this.",
     "img": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVhZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
     "add_to_list": true
   },
@@ -59,6 +67,7 @@
     "id": "9",
     "name": "Writing",
     "duration": 10,
+    "description": "It's a fake data. I do not like it. even I do not spend 1 min for this.",
     "img": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
     "add_to_list": true
   }

@@ -1,5 +1,18 @@
-.activities-container{
+.activities-main-wrapper{
     padding: 5% 10%;
+}
+.section-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    color: dodgerblue;
+}
+.logo{
+    height: 50px;
+    margin-right: 10px;
+}
+.activities-wrapper{
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
