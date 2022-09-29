@@ -3,7 +3,6 @@ import './Info.css';
 import profile from '../../../profile.PNG';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
-import { addToDb } from '../../../utilities/fakedb';
 
 
 const Info = ({durations,breaks,handleBreak}) => {
@@ -15,7 +14,7 @@ const Info = ({durations,breaks,handleBreak}) => {
                 <img src={profile} className='profile' alt="" />
                 <div>
                     <h2>Md Rabiullah</h2>
-                    <h3>Astronaut</h3>
+                    <h4>Web Developer</h4>
                 </div>
             </div>
             <div className='break-wrapper'>

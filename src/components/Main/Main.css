@@ -4,3 +4,11 @@
     background-color: aliceblue;
     position: relative;
 }
+@media screen and (max-width:767px) {
+    .main-wrapper{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        background-color: aliceblue;
+        position: relative;
+    }
+}
