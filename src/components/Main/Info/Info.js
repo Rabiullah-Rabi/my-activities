@@ -3,23 +3,12 @@ import './Info.css';
 import profile from '../../../profile.PNG';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
+import { addToDb } from '../../../utilities/fakedb';
 
 
-const Info = ({durations}) => {
+const Info = ({durations,breaks,handleBreak}) => {
     const totalDuration = durations.reduce((curr, prev) => curr + prev, 0);
-    const [breaks, setBreaks] = useState(0);
-    const data = localStorage.getItem("break");
-    const sringify = JSON.stringify(breaks);
-    if (!data) {
-        localStorage.setItem('break',sringify);
-    }
-    else {
-        localStorage.setItem('break',sringify);
-    }
-    console.log(data);
-    const handleBreak = (props) => {
-        setBreaks(props);
-    }
+    const breakTime = localStorage.getItem('break_time');
     return (
         <div className='info-container'>
             <div className='profile-wrapper'>
@@ -46,7 +35,7 @@ const Info = ({durations}) => {
                 </div>
                 <div className='result'>
                     <h3 >Break Time:</h3>
-                    <span >{data} min</span>
+                    <span >{(breakTime==null)?0:breakTime} min</span>
                 </div>
             </div>
             <div>
