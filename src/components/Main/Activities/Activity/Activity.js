@@ -11,7 +11,7 @@ const Activity = ({ activity ,durations,setDurations}) => {
     return (
         <div className='activity-wrapper'>
             <img src={img}  className='thumbnail' alt="" />
-            <h3>{name}</h3>
+            <h3 className='name'>{name}</h3>
             <p>{ description}</p>
             <p><b>Duration:</b> {duration} min</p>
             <button className='add-to-list' onClick={()=>handleAddToList(duration)}>Add To list</button>

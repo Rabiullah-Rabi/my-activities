@@ -72,12 +72,16 @@ h4{
 
 @media screen and (max-width:576px) {
     h2{
-        font-size: 16px;
+        font-size: 14px;
         margin:0;
     }
     h3{
-        font-size: 14px;
+        font-size: 12px;
         margin:0;
+        margin-bottom: 10px;
+    }
+    h4{
+        font-size: 12px;
     }
     .profile-wrapper {
         flex-direction: column;
