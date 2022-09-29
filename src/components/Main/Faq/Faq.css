@@ -1,0 +1,17 @@
+.faq-container{
+    padding: 5% 10%;
+}
+.question-wrapper{
+
+}
+.question{
+
+}
+.answer{
+    
+}
+@media screen and (max-width:767px) {
+    .question{
+        font-size: 16px;
+    }
+}

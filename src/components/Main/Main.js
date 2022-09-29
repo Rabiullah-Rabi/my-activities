@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { addToDb } from '../../utilities/fakedb';
 import {Activities} from './Activities/Activities';
+import Faq from './Faq/Faq';
 import Info from './Info/Info';
 import './Main.css'
 
@@ -31,6 +32,7 @@ const Main = () => {
                 breaks={breaks}
                 handleBreak={handleBreak}
             ></Info>
+            <Faq></Faq>
         </div>
     );
 };
