@@ -1,10 +1,22 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Info.css';
-import profile from '../../../profile.PNG'
+import profile from '../../../profile.PNG';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
 
-const Info = ({durations,setDurations}) => {
+
+const Info = ({durations}) => {
     const totalDuration = durations.reduce((curr, prev) => curr + prev, 0);
-    const [breaks,setBreaks] = useState(0);
+    const [breaks, setBreaks] = useState(0);
+    const data = localStorage.getItem("break");
+    const sringify = JSON.stringify(breaks);
+    if (!data) {
+        localStorage.setItem('break',sringify);
+    }
+    else {
+        localStorage.setItem('break',sringify);
+    }
+    console.log(data);
     const handleBreak = (props) => {
         setBreaks(props);
     }
@@ -34,11 +46,13 @@ const Info = ({durations,setDurations}) => {
                 </div>
                 <div className='result'>
                     <h3 >Break Time:</h3>
-                    <span >{breaks} min</span>
+                    <span >{data} min</span>
                 </div>
             </div>
-
-            <button className='completed-btn'>Activity Completed</button>
+            <div>
+                <button className='completed-btn' onClick={() => toast("Successfully Completed activity")}>Activity Completed</button>
+                <ToastContainer />
+            </div>
             
         </div>
     );
